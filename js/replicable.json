@@ -1,0 +1,46 @@
+{
+    "nav": {
+        "home": {
+            "name": "Home",
+            "href": "/",
+            "id": "",
+            "classes": "",
+            "attributes": []
+        },
+        "about": {
+            "name": "About Me",
+            "href": "/about-me",
+            "id": "",
+            "classes": "",
+            "attributes": []
+        },
+        "projects": {
+            "name": "Projects",
+            "href": "/projects",
+            "id": "",
+            "classes": "",
+            "attributes": []
+        },
+        "services": {
+            "name": "Services",
+            "href": "/services",
+            "id": "",
+            "classes": "",
+            "attributes": []
+        },
+        "blog": {
+            "name": "Blog",
+            "href": "/blog",
+            "id": "",
+            "classes": "",
+            "attributes": []
+        },
+        "contact": {
+            "name": "Contact",
+            "href": "/contact",
+            "id": "",
+            "classes": "",
+            "attributes": []
+        }
+    }
+}
