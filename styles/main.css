@@ -25,6 +25,10 @@ body {
     background-color: var(--eerie-black);
     color: var(--cultured);
 }
+img {
+    height: 100%;
+    width: 100%;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alfa Slab One', cursive;
 }
@@ -56,11 +60,54 @@ a {
     text-decoration: none;
 }
 /* Utilities */
-
+.header-bar {
+    align-items: center;
+    background-color: var(--rich-black);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.header-bar .logo {
+    height: 9rem;
+    padding: 0 2.5%;
+    width: 10%;
+}
+.header-bar .logo img {
+    border: 0.2rem solid var(--carnelian);
+    border-radius: 50%;
+}
 /* Navigation */
 nav {
-
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 50%;
 }
-nav:nth-child(1) {
-    
+nav a {
+    flex-basis: 10%;
+    padding: 3rem 0 0;
+    text-align: center;
+}
+nav a.active {
+    border-bottom: 0.5rem solid var(--carnelian);
+    color: var(--carnelian);
+}
+nav a:after {
+    border-bottom: 0.5rem solid var(--carnelian);   
+    content: "";
+    display: block;
+    padding: 3rem 0 0;
+    transition: 500ms;
+    width: 0;
+}
+nav a.active::after {
+    border-bottom: 0;   
+}
+nav a:hover {
+    color: var(--carnelian); 
+}
+nav a:hover::after {
+    width: 100%;
 }

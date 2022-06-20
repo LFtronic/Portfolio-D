@@ -4,7 +4,7 @@
             "name": "Home",
             "href": "/",
             "id": "",
-            "classes": "",
+            "classes": "active",
             "attributes": [],
             "target": "_self"
         },
