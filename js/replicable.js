@@ -1,2 +1,3 @@
-const jsonData= require('./json/replicable.json'); 
-console.log(jsonData);
+$.getJSON("./json/replicable.json", function(json) {
+    console.log(json); 
+});
