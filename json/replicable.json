@@ -5,42 +5,56 @@
             "href": "/",
             "id": "",
             "classes": "",
-            "attributes": []
+            "attributes": [],
+            "target": "_self"
         },
         "about": {
             "name": "About Me",
             "href": "/about-me",
             "id": "",
             "classes": "",
-            "attributes": []
+            "attributes": [],
+            "target": "_self"
         },
         "projects": {
             "name": "Projects",
             "href": "/projects",
             "id": "",
             "classes": "",
-            "attributes": []
+            "attributes": [],
+            "target": "_self"
         },
         "services": {
             "name": "Services",
             "href": "/services",
             "id": "",
             "classes": "",
-            "attributes": []
+            "attributes": [],
+            "target": "_self"
+        },
+        "cv": {
+            "name": "CV",
+            "href": "/cv",
+            "id": "",
+            "classes": "",
+            "attributes": [],
+            "target": "_self"
         },
         "blog": {
             "name": "Blog",
             "href": "/blog",
             "id": "",
             "classes": "",
-            "attributes": []
+            "attributes": [],
+            "target": "_self"
         },
         "contact": {
             "name": "Contact",
             "href": "/contact",
             "id": "",
             "classes": "",
-            "attributes": []
+            "attributes": [],
+            "target": "_self"
         }
     }
 }
