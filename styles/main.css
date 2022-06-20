@@ -1,0 +1,66 @@
+/* Global Variables*/
+:root {
+    --rich-black: #0B090A;
+    --eerie-black: #161A1D;
+    --blood-red: #660708;
+    --ruby-red: #A4161A;
+    --carnelian: #BA181B;
+    --imperial-red: #E5383B;
+    --black-shadows: #B1A7A6;
+    --light-gray: #D3D3D3;
+    --cultured: #F5F3F4;
+    --white: #FFFFFF;
+}
+/* Page globals */
+html {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 62.5%;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+body {
+    background-color: var(--eerie-black);
+    color: var(--cultured);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alfa Slab One', cursive;
+}
+h1 {
+    font-size: 8rem;
+}
+h2 {
+    font-size: 6rem;
+}
+h3 {
+    font-size: 5rem;
+}
+h4 {
+    font-size: 4rem;
+}
+h5 {
+    font-size: 3rem;
+}
+h6 {
+    font-size: 2rem;
+}
+p {
+    font-size: 2rem;
+}
+a {
+    color: var(--cultured);
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+/* Utilities */
+
+/* Navigation */
+nav {
+
+}
+nav:nth-child(1) {
+    
+}
