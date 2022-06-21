@@ -7,7 +7,7 @@
     "nav": {
         "home": {
             "name": "Home",
-            "href": "",
+            "href": "/",
             "id": "",
             "classes": "",
             "attributes": [],
