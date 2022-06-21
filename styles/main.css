@@ -77,6 +77,26 @@ a {
     border: 0.2rem solid var(--carnelian);
     border-radius: 50%;
 }
+/* Header Banner */
+.header-banner {
+    background-image: url("../media/header-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80rem;
+}
+.header-banner-content {
+    display: block;
+    letter-spacing: 0.5rem;
+    margin-right: 50%;
+    padding: 20rem 0 20rem 10%;
+    text-shadow: 0.2rem 0.2rem var(--eerie-black);
+    width: 50%;
+}
+.header-banner-content span {
+    color: var(--imperial-red);
+    text-shadow: 0.1rem 0.1rem var(--blood-red);
+}
 /* Navigation */
 nav {
     align-items: center;
