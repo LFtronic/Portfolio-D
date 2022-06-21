@@ -1,16 +1,21 @@
 {
+    "logo": {
+        "src": "./media/logo.png",
+        "alt": "LFtronic's Portfolio Logo"
+    },
+    "head": ["<meta charset='UTF-8'>", "<meta http-equiv='X-UA-Compatible' content='IE=edge'>", "<meta name='viewport' content='width=device-width, initial-scale=1.0'>", "<link rel='icon' href='media/favicon.ico' type='image/x-icon'>", "<link rel='preconnect' href='https://fonts.googleapis.com'>", "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>", "<link href='https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap' rel='stylesheet'>", "<link rel='stylesheet' href='styles/normalize.css'>", "<link rel='stylesheet' href='styles/main.css'>"],
     "nav": {
         "home": {
             "name": "Home",
-            "href": "/",
+            "href": "",
             "id": "",
-            "classes": "active",
+            "classes": "",
             "attributes": [],
             "target": "_self"
         },
         "about": {
             "name": "About Me",
-            "href": "/about-me",
+            "href": "about-me",
             "id": "",
             "classes": "",
             "attributes": [],
@@ -18,7 +23,7 @@
         },
         "projects": {
             "name": "Projects",
-            "href": "/projects",
+            "href": "projects",
             "id": "",
             "classes": "",
             "attributes": [],
@@ -26,7 +31,7 @@
         },
         "services": {
             "name": "Services",
-            "href": "/services",
+            "href": "services",
             "id": "",
             "classes": "",
             "attributes": [],
@@ -34,7 +39,7 @@
         },
         "cv": {
             "name": "CV",
-            "href": "/cv",
+            "href": "cv",
             "id": "",
             "classes": "",
             "attributes": [],
@@ -42,7 +47,7 @@
         },
         "blog": {
             "name": "Blog",
-            "href": "/blog",
+            "href": "blog",
             "id": "",
             "classes": "",
             "attributes": [],
@@ -50,7 +55,7 @@
         },
         "contact": {
             "name": "Contact",
-            "href": "/contact",
+            "href": "contact",
             "id": "",
             "classes": "",
             "attributes": [],
