@@ -70,8 +70,8 @@ a {
 }
 .header-bar .logo {
     height: 9rem;
-    padding: 0 2.5%;
-    width: 10%;
+    margin-left: 5rem;
+    width: 9rem;
 }
 .header-bar .logo img {
     border: 0.2rem solid var(--carnelian);
