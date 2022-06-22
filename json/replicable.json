@@ -7,7 +7,7 @@
     "nav": {
         "home": {
             "name": "Home",
-            "href": "/",
+            "href": "",
             "id": "",
             "classes": "",
             "onclick": "",
@@ -16,7 +16,7 @@
         },
         "about": {
             "name": "About Me",
-            "href": "/#about-me",
+            "href": "#about-me",
             "id": "",
             "classes": "",
             "onclick": "",
@@ -25,7 +25,7 @@
         },
         "projects": {
             "name": "Projects",
-            "href": "/#projects",
+            "href": "#projects",
             "id": "",
             "classes": "",
             "onclick": "",
@@ -34,7 +34,7 @@
         },
         "services": {
             "name": "Services",
-            "href": "/#services",
+            "href": "#services",
             "id": "",
             "classes": "",
             "onclick": "",
@@ -43,7 +43,7 @@
         },
         "cv": {
             "name": "CV",
-            "href": "/cv",
+            "href": "cv",
             "id": "",
             "classes": "",
             "onclick": "",
@@ -52,7 +52,7 @@
         },
         "blog": {
             "name": "Blog",
-            "href": "/#blog",
+            "href": "#blog",
             "id": "",
             "classes": "",
             "onclick": "",
@@ -61,7 +61,7 @@
         },
         "contact": {
             "name": "Contact",
-            "href": "/#contact",
+            "href": "#contact",
             "id": "",
             "classes": "",
             "onclick": "",
