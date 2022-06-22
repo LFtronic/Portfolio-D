@@ -14,7 +14,6 @@
 /* Page globals */
 html {
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 62.5%;
 }
 *, *:before, *::after {
@@ -24,40 +23,52 @@ html {
 body {
     background-color: var(--eerie-black);
     color: var(--cultured);
-}
-img {
-    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.5rem;
+    max-width: 100%;
     width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4{
     font-family: 'Alfa Slab One', cursive;
 }
 h1 {
-    font-size: 8rem;
-}
-h2 {
     font-size: 6rem;
 }
-h3 {
+h2 {
     font-size: 5rem;
 }
-h4 {
+h3 {
     font-size: 4rem;
 }
-h5 {
+h4 {
     font-size: 3rem;
+}
+h5 {
+    font-size: 2rem;
+    margin: 2.5rem 0;
 }
 h6 {
     font-size: 2rem;
+    margin: 2.5rem 0;
 }
 p {
     font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+li {
+    font-size: 1.75rem;
+    margin: 1rem 0;
 }
 a {
     color: var(--cultured);
     font-size: 2rem;
     font-weight: 900;
+    letter-spacing: normal;
     text-decoration: none;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
 }
 /* Utilities */
 .header-bar {
@@ -66,7 +77,7 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 .header-bar .logo {
     height: 9rem;
@@ -76,6 +87,7 @@ a {
 .header-bar .logo img {
     border: 0.2rem solid var(--carnelian);
     border-radius: 50%;
+    height: 100%;
 }
 /* Header Banner */
 .header-banner {
@@ -83,11 +95,9 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80rem;
 }
 .header-banner-content {
     display: block;
-    letter-spacing: 0.5rem;
     margin-right: 50%;
     padding: 20rem 0 20rem 10%;
     text-shadow: 0.2rem 0.2rem var(--eerie-black);
@@ -130,4 +140,62 @@ nav a:hover {
 }
 nav a:hover::after {
     width: 100%;
+}
+/* About Me */
+.about-me-content {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.about-me-portrait {
+    flex-basis: 35%;
+    margin: 5rem;
+}
+.about-me-portrait img {
+    border: 1rem solid var(--imperial-red);
+    border-radius: 7.5%;
+
+}
+.about-me-info-tabs {
+    flex-basis: 65%;
+}
+.about-me-info-tabs h2 {
+    margin: 2.5rem 0;
+}
+.about-me-info-tabs p {
+    margin: 2rem 0;
+}
+.about-me-info-tabs ul {
+    list-style: none;
+    padding: 0;
+}
+.tabs-content ul li h6, .tabs-content ul li p {
+    display: inline-block;
+    margin: 1rem 0 0;
+}
+.tabs ul {
+    display: flex;
+    padding: 1rem 0;
+}
+.tabs ul li {
+    flex-basis: 25%;
+}
+.tabs ul li h5 {
+    letter-spacing: normal;
+    margin: 0;
+}
+.tabs ul li:hover {
+    cursor: pointer;
+}
+.tabs ul li.active h5 {
+    color: var(--imperial-red);
+    transition: 1s;
+}
+.tabs-content {
+    height: 30rem;
+}
+.tabs-content ul li h6 {
+    letter-spacing: normal;
 }
