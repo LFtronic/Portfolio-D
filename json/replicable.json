@@ -10,54 +10,61 @@
             "href": "/",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         },
         "about": {
             "name": "About Me",
-            "href": "about-me",
+            "href": "/#about-me",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         },
         "projects": {
             "name": "Projects",
-            "href": "projects",
+            "href": "/#projects",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         },
         "services": {
             "name": "Services",
-            "href": "services",
+            "href": "/#services",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         },
         "cv": {
             "name": "CV",
-            "href": "cv",
+            "href": "/cv",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         },
         "blog": {
             "name": "Blog",
-            "href": "blog",
+            "href": "/#blog",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         },
         "contact": {
             "name": "Contact",
-            "href": "contact",
+            "href": "/#contact",
             "id": "",
             "classes": "",
+            "onclick": "",
             "attributes": [],
             "target": "_self"
         }

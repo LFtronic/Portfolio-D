@@ -20,13 +20,15 @@ window.onload = function() {
     navItems.forEach(item => {
         var e = document.createElement("a");
         e.innerHTML = item["name"];
-        e.href = item["href"];
+        e.href = window.location.protocol + "//" + window.location.host + item["href"];
         e.id = item["id"];
         e.classList = item["classes"];
-        var currentURL = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        var currentURL = window.location.href;
+        console.log(currentURL)
         if (e.href == currentURL) {
             e.classList.add("active");
         }
+        e.onclick = item["onclick"];
         e.attributes = item["attributes"];
         e.target = item["target"];
         navBar.append(e)

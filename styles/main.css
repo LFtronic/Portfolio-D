@@ -89,6 +89,11 @@ img {
     border-radius: 50%;
     height: 100%;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 /* Header Banner */
 .header-banner {
     background-image: url("../media/header-banner.png");
@@ -113,6 +118,7 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    overflow: hidden;
     width: 50%;
 }
 nav a {
