@@ -11,6 +11,7 @@ window.onload = function() {
         head.forEach(item => {
             headContainer.append(item);
         });
+        var url = json.url;
         var nav = json.nav;
         var navBar = $("nav");
         var navItems = [];
@@ -20,7 +21,7 @@ window.onload = function() {
         navItems.forEach(item => {
             var e = document.createElement("a");
             e.innerHTML = item["name"];
-            e.href = window.location.protocol + "//" + window.location.host + window.location.pathname + item["href"];
+            e.href = url + item["href"];
             e.id = item["id"];
             e.classList = item["classes"];
             var currentURL = window.location.href;

@@ -36,6 +36,7 @@ h1 {
 }
 h2 {
     font-size: 5rem;
+    margin: 2.5rem 0;
 }
 h3 {
     font-size: 4rem;
@@ -54,6 +55,7 @@ h6 {
 p {
     font-size: 2rem;
     letter-spacing: 0.2rem;
+    margin: 2rem 0;
 }
 li {
     font-size: 1.75rem;
@@ -88,6 +90,13 @@ img {
     border: 0.2rem solid var(--carnelian);
     border-radius: 50%;
     height: 100%;
+}
+.section-content {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5rem 17.5%;
 }
 .sticky {
     position: fixed;
@@ -150,11 +159,7 @@ nav a:hover::after {
 }
 /* About Me */
 .about-me-content {
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 5rem 17.5%;
+    
 }
 .about-me-portrait {
     flex-basis: calc(40% - 5rem);
@@ -165,12 +170,6 @@ nav a:hover::after {
 }
 .about-me-info-tabs {
     flex-basis: 60%;
-}
-.about-me-info-tabs h2 {
-    margin: 2.5rem 0;
-}
-.about-me-info-tabs p {
-    margin: 2rem 0;
 }
 .about-me-info-tabs ul {
     list-style: none;
@@ -203,4 +202,12 @@ nav a:hover::after {
 }
 .tabs-content ul li h6 {
     letter-spacing: normal;
+}
+/* Projects */
+#projects {
+    background-color: var(--rich-black);
+}
+.projects-content {
+    flex-direction: column;
+    text-align: center;
 }
