@@ -208,3 +208,8 @@ nav a:hover::after {
     flex-direction: column;
     text-align: center;
 }
+/* Seervices */
+.services-content {
+    flex-direction: column;
+    text-align: center;
+}
